@@ -319,4 +319,4 @@ async def refresh_panel(interaction: discord.Interaction, title: str):
 # ======================
 # Jalankan bot
 # ======================
-bot.run("MTMzOTk3NDI5MTI3NzYxNTEzNA.GYYhjv.wy-7kwylDF9PoZyopsRoftMumOxHqlHju-awUQ")
+bot.run(os.getenv("DISCORD_TOKEN"))
